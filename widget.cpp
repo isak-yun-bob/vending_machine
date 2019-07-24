@@ -103,18 +103,7 @@ void Widget::on_pbReset_clicked()
     Widget::money %= 50;
 
     ten = (Widget::money / 10);
-
-    /*
-    QMessageBox msg;
-    msg.setWindowTitle("Change");
-    QString msgDetail = "500won : " + to_string(fiveHund) + \
-            "\n100won : " + to_string(hund) + \
-            "\n50won : " + to_string(fifty) + \
-            "\n10won : " + to_string(ten);
-    //msg.information(nullptr, "Change", msgDetail);
-    QString msgDetail = "Hello";
-    msg.setText(msgDetail);
-    */
+    
     QMessageBox msg;
 
     // Set message and use integer with QVariant().tostring()
